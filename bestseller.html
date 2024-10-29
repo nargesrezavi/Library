@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Sellers</title>
+    <link rel="stylesheet" href="./bestseller.css">
+
+    <link rel="stylesheet" href="./assets/sass/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="./bestseller.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="./assets/images/logo.jpg" alt="logo" class="logoimage">
+
+        </div>
+        <ul class="nav-links">
+            <li><a href="./index.html">All Books</a></li>
+            <li><a href="./bestseller.html">Bestsellers</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Slider Section -->
+    <section class="slideshow-container">
+        <!-- Slide 1 -->
+        <div class="slide">
+            <img src="./assets/images/11.jpg" alt="Slide 1">
+            <div class="desc">
+                <h2>First Best Seller</h2>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide">
+            <img src="./assets/images/5.jpg" alt="Slide 2">
+            <div class="desc">
+                <h2>Second Best Seller</h2>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide">
+            <img src="./assets/images/9.jpg" alt="Slide 3">
+            <div class="desc">
+                <h2>Third Best Seller</h2>
+            </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="slide">
+            <img src="./assets/images/15.jpg" alt="Slide 3">
+            <div class="desc">
+                <h2>Fourth Best Seller</h2>
+            </div>
+        </div>
+        <!-- Slide 5 -->
+        <div class="slide">
+            <img src="./assets/images/3.jpg" alt="Slide 3">
+            <div class="desc">
+                <h2>Fifth Best Seller</h2>
+            </div>
+        </div>
+
+        <!-- Navigation buttons -->
+        <a class="prev" onclick="changeSlide(-1)" style="font-weight: bold;">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)" style="font-weight: bold;">&#10095;</a>
+    </section>
+
+
+</body>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>
+                <span class="material-symbols-outlined">
+                    mail
+                </span>
+                <br> info@example.com
+            </p>
+            <p>
+                <span class="material-symbols-outlined">
+                    call
+                </span>
+                <br>
+                +123 456 7890
+            </p>
+        </div>
+        <div class="footer-section">
+            <h3>History</h3>
+            <p>Founded in 2023</p>
+            <p>Our Journey So Far</p>
+        </div>
+        <div class="footer-section">
+            <h3>Discover More</h3>
+            <p>About Us</p>
+        </div>
+    </div>
+</footer>
+<!-- ====================Scroll Up===================== -->
+<a href="#" class="scrollup" id="scroll-up">
+    <span class="material-symbols-outlined">
+        arrow_upward
+    </span>
+</a>
+
+</html>

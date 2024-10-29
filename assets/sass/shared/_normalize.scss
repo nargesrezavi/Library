@@ -1,0 +1,21 @@
+/* General styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #bab1be;
+
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/poppins.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}

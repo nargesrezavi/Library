@@ -1,0 +1,130 @@
+/* Responsive Design */
+@media (max-width: 856px) {
+
+    nav {
+        width: 100%;
+    }
+
+    .books-section {
+        margin: 20px 150px;
+    }
+
+    .filter-section {
+        width: auto;
+        height: auto;
+        position: relative;
+        top: 0;
+        margin-top: 220px;
+        height: calc(100% - 400px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 856px) {
+    nav {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        height: 300px;
+    }
+
+    .container span {
+        padding-left: 5px;
+
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #40025a;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .favorites-section {
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    footer {
+        height: 400px;
+        width: 100%;
+    }
+
+    .mainpagination {
+        margin: 20px 120px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .footer-container {
+        flex-direction: row;
+        gap: 120px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    #pagination button {
+        padding: 8px 12px;
+    }
+
+}
+
+@media(max-width:756px) {
+    #favorites-container {
+        width: 600px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .mainpagination {
+        margin: 20px 120px;
+        grid-template-columns: repeat(6, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+}
